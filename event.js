@@ -24,7 +24,7 @@ function playerExits( event ) {
   var playerName = event.player.name
   console.log(playerName + ' left the server ...');
 }
-events.disconnection( playerExits );
+events.playerQuit( playerExits );
 
 
 // Skriver en besked, hver gang der spawnes noget
